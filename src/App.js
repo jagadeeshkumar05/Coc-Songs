@@ -11,6 +11,7 @@ function App() {
       <BrowserRouter>
           <Routes>
               <Route path='/' element={<Dashboard/>}/>
+              <Route path='/:id' element={<Dashboard/>} />
               <Route path='/filters' element={<Filters/>}/>
           </Routes>
       </BrowserRouter>

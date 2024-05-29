@@ -1,7 +1,9 @@
-import React,{useState} from 'react'
+import React,{useState,useEffect} from 'react'
 
-export default function Searchbar() {
-    const [songNumber, setSongNumber] = useState('');
+export default function Searchbar({id}) {
+    console.log(id);
+    console.log("aaa");
+    const [songNumber, setSongNumber] = useState(id || '');
     const [lyrics, setLyrics] = useState('');
     const [verses, setVerses] = useState('');
     function preprocessData(data) {
@@ -40,7 +42,9 @@ export default function Searchbar() {
             setLyrics('Error fetching the song data.');
         }
     };
-
+    if (id) {
+        handleSearch({ preventDefault: () => {} });
+}
   return (
     <>
         <div className="container">

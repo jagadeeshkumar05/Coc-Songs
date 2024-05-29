@@ -75,6 +75,73 @@ input{
   color:#ff0000;
   font: 1.5em/1.25em Arial, Helvetica, sans-serif !important;
 }
+ul{
+  list-style: none;
+}
+.lyrics-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lyrics-item {
+  margin: 10px 0;
+  padding: 10px;
+  width: 90%;
+  max-width: 600px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.lyrics-item:hover {
+  background-color: #f0f0f0;
+}
+
+.lyrics-link {
+  text-decoration: none; /* Remove underline */
+  color: #333; /* Change text color */
+  font-weight: bold;
+  display: block;
+  transition: color 0.3s ease;
+}
+
+.lyrics-link:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+@media (max-width: 768px) {
+  .lyrics-item {
+      width: 100%;
+      padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .lyrics-item {
+      padding: 12px;
+  }
+}
+.customlink {
+  font-family: "Noto Sans Telugu", sans-serif;
+  align-content: center;
+  font-weight: bold;
+  font-size:large;
+  text-decoration: none;
+  color: #110909;
+}
+.customlink:hover {
+   color: #00F
+}
+option{
+  font-family: "Noto Sans Telugu", sans-serif;
+  align-content: center;
+  font-weight: bold;
+  font-size: large;
+}
 p{
   font-family: "Noto Sans Telugu", sans-serif;
   align-content: center;
