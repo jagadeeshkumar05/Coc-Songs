@@ -1,0 +1,88 @@
+/* Navbar.css */
+.custom-navbar {
+  background-color: #eaeef1 !important; /* Add !important to override Bootstrap */
+}
+
+.custom-navbar-brand {
+  color:#007bff !important;
+  font-size: 2.75rem !important;
+  font-weight: bold;
+}
+
+.custom-nav-link {
+  font-size: 1.5rem !important;
+  margin-left: 1rem;
+  font-weight: 700 !important;
+  transition: color 0.3s ease-in-out;
+}
+
+.custom-nav-link:hover {
+  color: #567fed !important;
+}
+.center-form {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.form-horizontal{
+    width:60%;
+    margin:0 auto;
+}
+h3{
+  font-style: sans-serif !important;
+  font-weight: bold !important;
+}
+input{
+  color:#ff0000;
+  font: 1.5em/1.25em Arial, Helvetica, sans-serif !important;
+}
+p{
+  font-family: "Noto Sans Telugu", sans-serif;
+  align-content: center;
+  font-weight: bold;
+  font-size: xx-large;
+}
+pre{
+  font-family: "Noto Sans Telugu", sans-serif !important;
+  justify-content: center !important;
+  font-size: x-large !important;
+}
