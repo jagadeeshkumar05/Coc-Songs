@@ -12,6 +12,7 @@ const ResponsiveNavbar = () => {
         <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end'>
           <Nav className="ml-auto">
             <Nav.Link className="custom-nav-link" href="#home">Home</Nav.Link>
+            <Nav.Link className="custom-nav-link" href="filters">filters</Nav.Link>
             <Nav.Link className="custom-nav-link" href="#about-us">About Us</Nav.Link>
           </Nav>
         </Navbar.Collapse>
