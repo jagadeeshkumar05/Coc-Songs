@@ -55,7 +55,7 @@ export default function Searchbar({id}) {
                     <input
                         type="text"
                         className="form-control search-bar"
-                        placeholder="Search song number"
+                        placeholder="Song number"
                         value={songNumber}
                         onChange={(e) => setSongNumber(e.target.value)}
                     />
