@@ -65,6 +65,7 @@ export default function Filters() {
             <div className='container'>
                 <div className='row mt-3'>
                     <div className='col-md-8 bg-white offset-md-2'> 
+                        <h1>Search in Alphabetical Order</h1>
                         <form action="" onSubmit={handleSearch} className="form-horizontal form-control">
                         <div className="input-group">
                             <select className="form-select" onChange={(e) => setAlpha(e.target.value)}>
