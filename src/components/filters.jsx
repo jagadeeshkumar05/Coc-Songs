@@ -22,12 +22,27 @@ export default function Filters() {
     //     console.log(list);
     //     setRelatedData(list);
     // }
+    // useEffect(() => {
+    //     console.log("Related Data Updated:", relatedData);
+    // }, [relatedData]);
+    useEffect(() => {
+        fetch('/SongAlphaOrder.json')
+      .then(response => response.json())
+      .then(jsonData => setData(jsonData))
+      .catch(error => console.error('Error fetching data:', error));
+    },[]);    
+    useEffect(() => {
+        fetch('/Songs.json')
+      .then(response => response.json())
+      .then(jsonData => setSongData(jsonData))
+      .catch(error => console.error('Error fetching data:', error));
+    },[]);  
     const handleSearch = async (e) => {
         e.preventDefault();
         try {
-            const response = await fetch("/Songs.json");
-            const sdata = await response.json();
-            setSongData(sdata);
+            // const response = await fetch("/Songs.json");
+            // const sdata = await response.json();
+            // setSongData(sdata);
             let list = [];
             if (songData) {
                 songData.forEach((item, index) => {
@@ -43,16 +58,7 @@ export default function Filters() {
             console.error('Error fetching the song data:', error);
         }
     };
-
-    // useEffect(() => {
-    //     console.log("Related Data Updated:", relatedData);
-    // }, [relatedData]);
-    useEffect(() => {
-        fetch('/SongAlphaOrder.json')
-      .then(response => response.json())
-      .then(jsonData => setData(jsonData))
-      .catch(error => console.error('Error fetching data:', error));
-    },[]);    
+    // console.log(relatedData);
   return (
     <>
         <Nav/>
@@ -62,7 +68,7 @@ export default function Filters() {
                         <form action="" onSubmit={handleSearch} className="form-horizontal form-control">
                         <div className="input-group">
                             <select className="form-select" onChange={(e) => setAlpha(e.target.value)}>
-                                <option defaultValue={"select"}>select</option>
+                                <option className='form-control' defaultValue={"select"}>select</option>
                                 {data.map((item, index) => (
                                     <option value={item.Label} >{item.Label}</option>
                                     ))} 

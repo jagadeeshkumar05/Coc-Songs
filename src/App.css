@@ -5,12 +5,12 @@
 
 .custom-navbar-brand {
   color:#007bff !important;
-  font-size: 2.75rem !important;
+  font-size: 2.25rem !important;
   font-weight: bold;
 }
 
 .custom-nav-link {
-  font-size: 1.5rem !important;
+  font-size: 1.25rem !important;
   margin-left: 1rem;
   font-weight: 700 !important;
   transition: color 0.3s ease-in-out;
@@ -20,7 +20,7 @@
   color: #567fed !important;
 }
 .center-form {
-  height: 10vh;
+  height: 8vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -138,15 +138,26 @@ ul{
 }
 option{
   font-family: "Noto Sans Telugu", sans-serif;
-  align-content: center;
   font-weight: bold;
   font-size: large;
 }
-p{
+.about,p{
   font-family: "Noto Sans Telugu", sans-serif;
   align-content: center;
   font-weight: bold;
-  font-size: xx-large;
+  font-size: x-large;
+}
+.about{
+  margin-left: 17%;
+}
+image{
+  height: fit-content !important;
+  width: 70% !important;
+}
+.pp{
+  font-family: "Noto Sans Telugu", sans-serif !important;
+  margin-left: 30%;
+  font-size: x-large !important;
 }
 pre{
   font-family: "Noto Sans Telugu", sans-serif !important;
@@ -181,3 +192,55 @@ pre{
     font:<size>px/em/rm;
   }
 } */
+/* AboutUs.css */
+.about-us-container {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+.about-us-header {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about-us-lead {
+  color: #666;
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.about-us-section {
+  margin-bottom: 60px;
+}
+
+.about-us-section h2 {
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.about-us-section p {
+  color: #555;
+  line-height: 1.6;
+}
+.logo{
+  width: 20%;
+  margin-right: 3%;
+}
+.lead{
+  font-weight: 800 !important;
+  font-size: xx-large !important;
+}
+.about-us-image {
+  width: 90% !important;
+    margin-left: 5%;
+  border-radius: 10px;
+}
+
+.about-us-contact {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.about-us-contact:hover {
+  text-decoration: underline;
+}

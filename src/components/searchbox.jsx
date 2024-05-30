@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from 'react'
+import React,{useState} from 'react'
 
 export default function Searchbar({id}) {
     console.log(id);
@@ -70,7 +70,7 @@ export default function Searchbar({id}) {
         <div className="col-md-9 offset-md-3">
             {lyrics && (
                 <div className="lyrics-box border p-3 justify-content-center">
-                    <h3>Song Number: {songNumber}</h3>
+                    <h4>Song Number: {songNumber}</h4>
                     <p>{lyrics}</p>
                     <hr/>
                     <pre>{verses}</pre>
