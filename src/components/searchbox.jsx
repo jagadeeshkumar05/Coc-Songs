@@ -14,6 +14,7 @@ export default function Searchbar({id}) {
         // Iterate through each line
         for (let i = 0; i < lines.length; i++) {
             let line = lines[i];
+            line = line.replace(/#/g, () => `\r\n`);
             // Replace ~ symbol with assigned number and increment
             line = line.replace(/~/g, () => `\r\n\n${symbolCount++}. `);
             // Update the line with the replaced symbol
@@ -36,6 +37,7 @@ export default function Searchbar({id}) {
                 setVerses(preprocessData(song.Song_Verses));
             } else {
                 setLyrics('Song not found.');
+                setVerses(" ");
             }
         } catch (error) {
             console.error('Error fetching the song data:', error);

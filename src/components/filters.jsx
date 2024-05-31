@@ -88,7 +88,7 @@ export default function Filters() {
     {relatedData.map((item, index) => (
       <li key={index} className="lyrics-item">  {/* Use key on the list item */}
         <Link className="customlink" to={`/${item.Song_Id}`}>  {/* Use Link for redirection */}
-          {item.Song_Title}
+          {`${item.Song_Id}. ${item.Song_Title}`}
         </Link>
       </li>
     ))}
