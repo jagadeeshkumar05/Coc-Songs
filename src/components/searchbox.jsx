@@ -3,7 +3,7 @@ import React,{useState} from 'react'
 export default function Searchbar({id}) {
     console.log(id);
     console.log("aaa");
-    const [songNumber, setSongNumber] = useState(id || '');
+    const [songNumber, setSongNumber] = useState(id || '1');
     const [lyrics, setLyrics] = useState('');
     const [verses, setVerses] = useState('');
     function preprocessData(data) {
@@ -44,7 +44,7 @@ export default function Searchbar({id}) {
             setLyrics('Error fetching the song data.');
         }
     };
-    if (id) {
+    if (songNumber) {
         handleSearch({ preventDefault: () => {} });
 }
   return (
