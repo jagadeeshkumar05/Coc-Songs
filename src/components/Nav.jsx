@@ -12,7 +12,7 @@ const ResponsiveNavbar = () => {
           <img src='/channels4_profile.jpg' alt="Logo" className='logo' />
           COC Songs</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end'>
+        <Navbar.Collapse id="basic-navbar-nav" className=''>
           <Nav className="ml-auto">
             <Nav.Link className="custom-nav-link" href="/">Home</Nav.Link>
             <Nav.Link className="custom-nav-link" href="filters">Filters</Nav.Link>
