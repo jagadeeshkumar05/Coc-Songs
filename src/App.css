@@ -167,7 +167,7 @@ pre{
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
   .custom-navbar-brand{
-    font-size: 1.5rem !important;
+    font-size: 1.2rem !important;
   }
   pre{
       font-size: 14px !important;
@@ -179,6 +179,9 @@ pre{
   pre{
     font-size: 17px !important;
   }
+    .custom-navbar-brand{
+    font-size: 1.2rem !important;
+    }
  }
 
 /* // Medium devices (tablets, 768px and up) */
