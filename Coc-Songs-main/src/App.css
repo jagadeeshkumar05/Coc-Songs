@@ -1,0 +1,255 @@
+/* Navbar.css */
+.custom-navbar {
+  background-color: #eaeef1 !important; /* Add !important to override Bootstrap */
+}
+
+.custom-navbar-brand {
+  color:#007bff !important;
+  font-size: 2.25rem !important;
+  font-weight: bold;
+}
+
+.custom-nav-link {
+  font-size: 1.25rem !important;
+  margin-left: 1rem;
+  font-weight: 700 !important;
+  transition: color 0.3s ease-in-out;
+}
+
+.custom-nav-link:hover {
+  color: #567fed !important;
+}
+.center-form {
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.form-horizontal{
+    width:60%;
+    margin:0 auto;
+}
+h3{
+  font-style: sans-serif !important;
+  font-weight: bold !important;
+}
+input{
+  color:#ff0000;
+  font: 1.5em/1.25em Arial, Helvetica, sans-serif !important;
+}
+ul{
+  list-style: none;
+}
+.lyrics-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lyrics-item {
+  margin: 10px 0;
+  padding: 10px;
+  width: 90%;
+  max-width: 600px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.lyrics-item:hover {
+  background-color: #f0f0f0;
+}
+
+.lyrics-link {
+  text-decoration: none; /* Remove underline */
+  color: #333; /* Change text color */
+  font-weight: bold;
+  display: block;
+  transition: color 0.3s ease;
+}
+
+.lyrics-link:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+@media (max-width: 768px) {
+  .lyrics-item {
+      width: 100%;
+      padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .lyrics-item {
+      padding: 12px;
+  }
+}
+.customlink {
+  font-family: "Noto Sans Telugu", sans-serif;
+  align-content: center;
+  font-weight: bold;
+  font-size:large;
+  text-decoration: none;
+  color: #110909;
+}
+.customlink:hover {
+   color: #00F
+}
+option{
+  font-family: "Noto Sans Telugu", sans-serif;
+  font-weight: bold;
+  font-size: large;
+}
+.about,p{
+  font-family: "Noto Sans Telugu", sans-serif;
+  align-content: center;
+  font-weight: bold;
+  font-size: x-large;
+}
+.about{
+  margin-left: 17%;
+}
+image{
+  height: fit-content !important;
+  width: 70% !important;
+}
+.pp{
+  font-family: "Noto Sans Telugu", sans-serif !important;
+  margin-left: 30%;
+  font-size: x-large !important;
+}
+pre{
+  font-family: "Noto Sans Telugu", sans-serif !important;
+  justify-content: center !important;
+  font-size: x-large !important;
+}
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+  .custom-navbar-brand{
+    font-size: 1.2rem !important;
+  }
+  pre{
+      font-size: 14px !important;
+  }
+ }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  pre{
+    font-size: 17px !important;
+  }
+    .custom-navbar-brand{
+    font-size: 1.2rem !important;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  pre{
+    font-size: 17px !important;
+  }
+ }
+
+/* @media screen and (max-width : 1204px)
+{
+  pre,p
+  {
+    font:<size>px/em/rm;
+  }
+} */
+/* AboutUs.css */
+.about-us-container {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+.about-us-header {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about-us-lead {
+  color: #666;
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.about-us-section {
+  margin-bottom: 60px;
+}
+
+.about-us-section h2 {
+  color: #444;
+  margin-bottom: 20px;
+}
+.alphas{
+  margin-left: 15%;
+}
+
+.about-us-section p {
+  color: #555;
+  line-height: 1.6;
+}
+.logo{
+  width: 20%;
+  margin-right: 3%;
+}
+.lead{
+  font-weight: 800 !important;
+  font-size: xx-large !important;
+}
+.about-us-image {
+  width: 90% !important;
+    margin-left: 5%;
+  border-radius: 45%;
+}
+
+.about-us-contact {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.about-us-contact:hover {
+  text-decoration: underline;
+}
