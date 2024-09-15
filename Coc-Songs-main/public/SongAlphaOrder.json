@@ -1,0 +1,170 @@
+[
+    {
+        "Label": "అ",
+        "QueryString": "అ"
+    },
+    {
+        "Label": "ఆ",
+        "QueryString": "ఆ"
+    },
+    {
+        "Label": "ఇ",
+        "QueryString": "ఇ"
+    },
+    {
+        "Label": "ఈ",
+        "QueryString": "ఈ"
+    },
+    {
+        "Label": "ఉ",
+        "QueryString": "ఉ"
+    },
+    {
+        "Label": "ఎ",
+        "QueryString": "ఎ"
+    },
+    {
+        "Label": "ఏ",
+        "QueryString": "ఏ"
+    },
+    {
+        "Label": "ఓ",
+        "QueryString": "ఓ"
+    },
+    {
+        "Label": "క",
+        "QueryString": "క"
+    },
+    {
+        "Label": "గ",
+        "QueryString": "గ"
+    },
+    {
+        "Label": "చ",
+        "QueryString": "చ"
+    },
+    {
+        "Label": "జ",
+        "QueryString": "జ"
+    },
+    {
+        "Label": "త",
+        "QueryString": "త"
+    },
+    {
+        "Label": "ద",
+        "QueryString": "ద"
+    },
+    {
+        "Label": "న",
+        "QueryString": "న"
+    },
+    {
+        "Label": "ప",
+        "QueryString": "ప"
+    },
+    {
+        "Label": "బ",
+        "QueryString": "బ,భ"
+    },
+    {
+        "Label": "మ",
+        "QueryString": "మ"
+    },
+    {
+        "Label": "య",
+        "QueryString": "య"
+    },
+    {
+        "Label": "ర",
+        "QueryString": "ర"
+    },
+    {
+        "Label": "ల",
+        "QueryString": "ల"
+    },
+    {
+        "Label": "వ",
+        "QueryString": "వ"
+    },
+    {
+        "Label": "శ",
+        "QueryString": "శ"
+    },
+    {
+        "Label": "స",
+        "QueryString": "స"
+    },
+    {
+        "Label": "ష",
+        "QueryString": "ష"
+    },
+    {
+        "Label": "హ",
+        "QueryString": "హ"
+    },
+    {
+        "Label": "A",
+        "QueryString": "A"
+    },
+    {
+        "Label": "B",
+        "QueryString": "B"
+    },
+    {
+        "Label": "F",
+        "QueryString": "F"
+    },
+    {
+        "Label": "G",
+        "QueryString": "G"
+    },
+    {
+        "Label": "H",
+        "QueryString": "H"
+    },
+    {
+        "Label": "I",
+        "QueryString": "I"
+    },
+    {
+        "Label": "J",
+        "QueryString": "J"
+    },
+    {
+        "Label": "L",
+        "QueryString": "L"
+    },
+    {
+        "Label": "M",
+        "QueryString": "M"
+    },
+    {
+        "Label": "O",
+        "QueryString": "O"
+    },
+    {
+        "Label": "P",
+        "QueryString": "P"
+    },
+    {
+        "Label": "R",
+        "QueryString": "R"
+    },
+    {
+        "Label": "S",
+        "QueryString": "S"
+    },
+    {
+        "Label": "T",
+        "QueryString": "T"
+    },
+    {
+        "Label": "W",
+        "QueryString": "W"
+    },
+    {
+        "Label": "Y",
+        "QueryString": "Y"
+    }
+]

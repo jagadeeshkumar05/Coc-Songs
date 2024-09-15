@@ -1,0 +1,25 @@
+{
+  "short_name": "Coc Songs App",
+  "name": "Coc Songs App",
+  "icons": [
+    {
+      "src": "coc.ico",
+      "sizes": "64x64 48x48 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "channels4_profile.jpg",
+      "type": "image/jpg",
+      "sizes": "196x196"
+    },
+    {
+      "src": "channels4_profile.jpg",
+      "type": "image/jpg",
+      "sizes": "196x196"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
